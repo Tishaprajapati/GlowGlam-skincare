@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkinType</title>
+    <link rel="stylesheet" href="skintype.css" />
+  </head>
+  <body>
+    <div>
+      <div
+        style="background-color: rgb(249, 244, 237); height: 548px"
+        id="body"
+      >
+        <section id="navabr section">
+          <div class="div">
+            <img
+              class="img"
+              src="https://img.icons8.com/?size=100&id=pfd93xcnIJU3&format=png&color=000000"
+              alt="face"
+              width="90px"
+              height="90px"
+            />
+            <img
+              class="menu"
+              onclick="menufun()"
+              src="https://img.icons8.com/?size=100&id=g5dx3VExcn2X&format=png&color=000000"
+            />
+
+            <ul class="navbar">
+              <li>
+                <a
+                  href="home.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="routine.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Routines</a
+                >
+              </li>
+              <li>
+                <a
+                  href="Skin Solutions.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Skin Solutions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="Contact.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="menucard" id="menucard">
+            <ul>
+              <li>
+                <a
+                  href="home.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="routine.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Routines</a
+                >
+              </li>
+              <li>
+                <a
+                  href="Skin Solutions.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Skin Solutions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="Contact.html"
+                  style="text-decoration: none; color: rgb(168, 21, 5)"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="Heading of Quiz">
+          <p style="margin-top: -20px">
+            Skin Type Quiz: <span class="five"> 5</span> Questions To Identify
+            Your Skin...
+          </p>
+
+          <div
+            id="start"
+            class="div2"
+            style="background-color: rgb(249, 244, 237)"
+          >
+            <button class="start" onclick="startquiz()">Start Quiz</button>
+          </div>
+        </section>
+        <section id="quiz Ques-ans">
+          <div class="card" id="card1">
+            <div class="q">
+              Question 1: How does your skin feel a few hours after washing it?
+            </div>
+            <div class="options">
+              <div class="option">
+                <p onclick="oily()">Greasy and shiny</p>
+                <p onclick="dry()">Tight or flaky</p>
+                <p onclick="normal()">Soft and balanced</p>
+              </div>
+              <div class="option">
+                <p onclick="combination()">Oily in T-zone, dry elsewhere</p>
+                <p onclick="sensitive()">Tingling, stinging, or irritated</p>
+              </div>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="q">Question 2: How do your pores appear?</div>
+            <div class="options">
+              <div class="option">
+                <p onclick="oily()">Large and visible</p>
+                <p onclick="dry()">Small and tight</p>
+                <p onclick="combination()">Large in T-zone only</p>
+              </div>
+              <div class="option">
+                <p onclick="normal()">Normal size and barely visible</p>
+                <p onclick="sensitive()">
+                  Red or easily inflamed, no clear pattern
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card3">
+            <div class="q">
+              Question 3: How often do you get breakouts or irritation?
+            </div>
+            <div class="options">
+              <div class="option">
+                <p onclick="oily()">Frequent pimples</p>
+                <p onclick="dry()">Rarely any pimples</p>
+                <p onclick="normal()">Very rarely or never</p>
+              </div>
+              <div class="option">
+                <p onclick="combination()">Breakouts in oily areas only</p>
+                <p onclick="sensitive()">
+                  Skin reacts easily with rashes or bumps
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card4">
+            <div class="q">
+              Question 4: What happens when you try a new skincare product?
+            </div>
+            <div class="options">
+              <div class="option">
+                <p onclick="normal()">No problem</p>
+                <p onclick="dry()">Skin may feel dry</p>
+                <p onclick="combination()">Some areas react</p>
+              </div>
+              <div class="option">
+                <p onclick="normal()">Works well overall</p>
+                <p onclick="sensitive()">Stings, burns, or breaks out easily</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card5">
+            <div class="q">
+              Question 5: How does your skin feel when you wake up?
+            </div>
+            <div class="options">
+              <div class="option">
+                <p onclick="oily()">Oily and shiny</p>
+                <p onclick="dry()">Dry or tight</p>
+                <p onclick="sensitive()">Red or itchy</p>
+              </div>
+              <div class="option">
+                <p onclick="combination()">Mixed (some oily, some dry)</p>
+                <p onclick="normal()">Fresh and hydrated</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="quiz result">
+          <div class="skinr" id="skinr">
+            <button onclick="btn()" class="btn" id="btn">
+              Show My SkinType
+            </button>
+            <span id="skin" class="skin"></span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="skintype.js"></script>
+</html>

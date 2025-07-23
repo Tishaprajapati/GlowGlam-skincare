@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="service.css" />
+  </head>
+  <body>
+    <div class="card" id="card" onclick="closef()"></div>
+    <div style="background-color: rgb(249, 244, 237)" ; id="body">
+      <section id="navbar section">
+        <div class="div">
+          <a href="home.html"
+            ><img
+              src="https://img.icons8.com/?size=100&id=pfd93xcnIJU3&format=png&color=000000"
+              alt="face"
+              width="90px"
+              height="90px"
+            />
+          </a>
+          <!-- <span class="p">GlowGuide</span> -->
+          <img
+            class="menu"
+            onclick="menufun()"
+            src="https://img.icons8.com/?size=100&id=g5dx3VExcn2X&format=png&color=000000"
+          />
+
+          <ul class="navbar">
+            <li>
+              <a
+                href="home.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="skintype.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >SkinType Test</a
+              >
+            </li>
+            <li>
+              <a
+                href="routine.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Routines</a
+              >
+            </li>
+            <li>
+              <a
+                href="Skin Solutions.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Skin Solutions</a
+              >
+            </li>
+            <li>
+              <a
+                href="Contact.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="menucard" id="menucard">
+          <ul>
+            <li>
+              <a
+                href="home.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="skintype.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >SkinType Test</a
+              >
+            </li>
+            <li>
+              <a
+                href="routine.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Routines</a
+              >
+            </li>
+            <li>
+              <a
+                href="Skin Solutions.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Skin Solutions</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="Contact.html"
+                style="text-decoration: none; color: rgb(168, 21, 5)"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="heading of page">
+        <div class="p1">Professional <span>BeautyCare Services</span></div>
+      </section>
+      <section id="cards of treatments">
+        <div class="table">
+          <div class="tr">
+            <div class="td" onclick="laser()" id="laser">
+              <div class="left">
+                <span>Laser Hair Treatment</span>
+              </div>
+              <p class="dis">
+                GlowGlam's Laser Hair Reduction service has become the gold
+                standard destination across India for both men and women. As a
+                pioneer in LHR (Laser Hair Reduction) services, GlowGlam employs
+                state-of-the-art technology using US-FDA-approved laser machines
+                to achieve long-lasting hair reduction results.
+              </p>
+              <button>See More</button>
+            </div>
+            <div class="td" onclick="facial()" id="facial">
+              <div class="right">
+                <span> Facial Treatments </span>
+              </div>
+              <p class="dis">
+                Facial treatments are specialized skincare procedures designed
+                to enhance the health and appearance of the skin on the face.
+                These treatments encompass a variety of techniques and products
+                tailored to address specific skin concerns, ranging from
+                hydration to anti-aging. The primary goal of facial treatments
+                is to improve skin texture, tone, and overall radiance, while
+                also targeting problem areas such as acne, pigmentation, and
+                fine lines.
+              </p>
+              <button>See More</button>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td" onclick="bright()" id="bright">
+              <div class="left">
+                <span>Skin Brightness</span>
+              </div>
+              <p class="dis">
+                GlowGlam Clinic offers a range of treatments designed to address
+                pigmentation and enhance skin brightness. Our Pigmentation
+                Reduction System combines chemical peels and laser treatments to
+                effectively target and reduce pigmentation. These treatments not
+                only help in skin lightening but also improve overall skin
+                texture and radiance.
+              </p>
+              <button>See More</button>
+            </div>
+            <div class="td" id="chem" onclick="chemical()">
+              <div class="right">
+                <span> Chemical Peel Treatment</span>
+              </div>
+              <p class="dis">
+                At GlowGlam, both skin peeling treatments and chemical peel
+                treatments are advanced, safe, and non-invasive, providing
+                remarkable results without the need for surgery. The procedure
+                removes the damaged top layer of the skin, encouraging the
+                regeneration of new, healthy skin cells. This process not only
+                improves skin texture and tone but also promotes a radiant and
+                naturally glowing complexion.
+              </p>
+              <button>See More</button>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td" id="fill" onclick="filler()">
+              <div class="left">
+                <span>Filler Treatment</span>
+              </div>
+              <p class="dis">
+                GlowGlam’s Dermal Fillers procedure involves injecting small
+                filler substances beneath the skin's surface, typically using a
+                fine needle. One of the common substances used in dermal fillers
+                is hyaluronic acid, a naturally occurring molecule in the body.
+                Hyaluronic acid-based fillers are often chosen for their
+                compatibility with the body and their ability to provide subtle
+                yet effective results.
+              </p>
+              <button>See More</button>
+            </div>
+            <div class="td" id="thermage" onclick="thermage()">
+              <div class="right">
+                <span> Thermage</span>
+              </div>
+              <p class="dis">
+                GlowGlam's got the answer if you want an effective non-surgical
+                anti-ageing treatment! Thermage is a non-invasive cosmetic
+                procedure designed to address various signs of ageing, such as
+                sagging skin, wrinkles, and fine lines. During the treatment, a
+                specialized device delivers controlled radiofrequency energy
+                deep into the skin, stimulating collagen production and
+                remodelling existing collagen fibres.
+              </p>
+              <button>See More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="service.js"></script>
+</html>
